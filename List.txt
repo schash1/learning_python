@@ -1,0 +1,22 @@
+Adds an element at the end of the list/list.append(x)
+Add the elements of a list(or any of iterable), to the end of the current list(method and operand)/list.extend(l) and l3 = l1 + l2
+Adds an element at the specified position/list.insert(i, x)
+Removes the first item with the specified value/list.remove(x)
+Removes the element at the specified position or the last element(method and function)/list.pop([i]) and del list[i]
+Returns the index of the first element with the specified value/list.index(x)
+Returns the number of elements with the specified value/list.count(x)
+Sorts the list from smallest to biggest/list.sort()
+Sorts the list by function/list.sort(key = func)
+Sorts the list from biggest to smallest/list.sort(reverse=True)
+Reverses the order of the list/list.reverse()
+Returns a copy of the list(method and function)/list.copy() and list(l)
+Removes all the elements from the list/list.clear()
+To determine how many items a list has, use the function/len(l)
+How to know the element by index(also can be negative(-1), from the end)/list[i]
+How you can specify a range of indexes by specifying where to start(included) and where to end(not included) the range/list[i:i]
+How to check if element exists/if x in l:
+How to change element value/list[i] = x
+How to change or add a range of element values/list[i:i] = [x, x]
+How to delete the list completely/del list
+Loop Through a List/for x in l:
+Comprehension/l = [expression for x in l (if condition == True)]
