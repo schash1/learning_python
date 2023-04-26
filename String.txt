@@ -1,0 +1,13 @@
+You can assign a multiline string to a variable by/using three quotes
+How to access elements of the string/word[i]
+Looping Through a String/for x in w:
+How to get the length of a string/len(w)
+How to check if a certain phrase or character is present in a string or not/if x (not) in w:
+How you can return a range of characters/w[i:i]
+What method returns the string in upper case/word.upper()
+What method returns the string in lower case/word.lower()
+How to remove Whitespace (is the space before and/or after the actual text)/word.strip()
+What method replaces a string with another string/word.replace(x, x)
+What method returns a list where the text between the specified separator becomes the list items/w.split('sym')
+How to concatenate, or combine, two strings/x3 = x1 + x2
+List Escape Characters (10)/ \' \" \\ \n \r \t \b \f \ooo \xhh
