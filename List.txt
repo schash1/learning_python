@@ -13,7 +13,7 @@ Returns a copy of the list(method and function)/list.copy() and list(l)
 Removes all the elements from the list/list.clear()
 To determine how many items a list has, use the function/len(l)
 How to know the element by index(also can be negative(-1), from the end)/list[i]
-How you can specify a range of indexes by specifying where to start(included) and where to end(not included) the range/list[i:i]
+How you can specify a range of indexes by specifying where to start(included) and where to end(not included) the range/list[i:i:step]
 How to check if element exists/if x in l:
 How to change element value/list[i] = x
 How to change or add a range of element values/list[i:i] = [x, x]
