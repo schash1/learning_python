@@ -1,14 +1,12 @@
 You can assign a multiline string to a variable by/using three quotes
-How to access elements of the string/word[i]
+How to access an element of the string/word[i]
 Looping Through a String/for x in w:
 How to get the length of a string/len(w)
 How to check if a certain phrase or character is present in a string or not/if x (not) in w:
 How you can return a range of characters/w[i:i:step]
 What method returns the string in upper case/word.upper()
-What method returns the string in lower case/word.lower()
-How to remove Whitespace (is the space before and/or after the actual text)/word.strip()
-What method replaces a string with another string/word.replace(x, x)
-What method returns a list where the text between the specified separator becomes the list items/w.split('sym')
+What method replaces a string with another string/word.replace(x, x, count)
+What method returns a list where the text between the specified separator becomes the list items/w.split(x)
 How to concatenate, or combine, two strings/x3 = x1 + x2
 How to repeat a string/word * count
 List Escape Characters (10)/ \' \" \\ \n \r \t \b \f \ooo \xhh
@@ -17,8 +15,8 @@ Converts string into lower case(2 methods)/word.casefold() and word.lower()
 Returns a centered string in symbols or spaces/word.center(width, [fill])
 Returns the number of times a specified value occurs in a string from the start and till the end/word.count(x, [i], [i])
 Returns an encoded version of the string/word.encode()
-Returns true if the string ends with the specified value/word.endswith()
-If \t in word Sets the tab size of the string/expandtabs([count spaces])
+Returns true if the string ends with the specified value/word.endswith(x)
+If \t in word Sets the tab size of the string/word.expandtabs([count spaces])
 Searches the string for a specified value and returns the first position of where it was found from the start and till the end(2 functions)/word.find(x, [i], [i]) and word.index(x, [i], [i])
 Returns True if all characters in the string are alphanumeric/word.isalnum()
 Returns True if all characters in the string are in the alphabet/word.isalpha()
@@ -38,14 +36,12 @@ What method in Python, at the beginning of a string removes whitespaces and Esca
 What method in Python, at the ending of a string removes whitespaces and Escape Characters(or characters)/word.rstrip([x])
 What method in Python, at the beginning and ending of a string removes whitespaces and Escape Characters(or characters)/word.strip([x])
 Returns a translation table to be used in translations/word.maketrans()
-Returns a tuple where the string is parted into three parts by separator character or symbol from the beginning/word.partition()
-Returns a string where a specified value is replaced with a specified value/word.replace(x, x, count)
+Returns a tuple where the string is parted into three parts by separator character or symbol from the beginning/word.partition(x)
 Searches the string for a specified value and returns the last position of where it was found(2 functions)/word.rfind(x, [i], [i]) and word.rindex(x, [i], [i])
-Returns a tuple where the string is parted into three parts by separator character or symbol from the ending/word.rpartition()
+Returns a tuple where the string is parted into three parts by separator character or symbol from the ending/word.rpartition(x)
 Splits the string at line breaks and returns a list/word.splitlines()
-Returns true if the string starts with the specified value/word.startswith()
+Returns true if the string starts with the specified value/word.startswith(x)
 Swaps cases, lower case becomes upper case and vice versa/word.swapcase()
 Converts the first character of each word to upper case/word.title()
 Returns a translated string/word.translate(l)
-Converts a string into upper case/word.upper()
 Fills the string with a specified number of 0 values at the beginning/word.zfill(width)

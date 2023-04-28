@@ -1,7 +1,7 @@
 from random import choice
 
 d = {}
-with open("List.txt", encoding='utf-8') as f:
+with open("String.txt", encoding='utf-8') as f:
     for line in f:
         (key, val) = line.split('/')
         d[key] = val
