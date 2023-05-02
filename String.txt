@@ -3,7 +3,7 @@ How to access an element of the string/word[i]
 Looping Through a String/for x in w:
 How to get the length of a string/len(w)
 How to check if a certain phrase or character is present in a string or not/if x (not) in w:
-How you can return a range of characters/w[i:i:step]
+How can you return a range of characters/w[i:i:step]
 What method returns the string in upper case/word.upper()
 What method replaces a string with another string/word.replace(x, x, count)
 What method returns a list where the text between the specified separator becomes the list items/w.split(x)
@@ -27,7 +27,7 @@ Returns True if all characters in the string are lower case/word.islower()
 Returns True if all characters in the string are numeric(digits and roman)/word.isnumeric()
 Returns True if all characters in the string are printable(without Escape Characters)/word.isprintable()
 Returns True if all characters in the string are whitespaces or Escape Characters/word.isspace()
-Returns True if the string starts with upper case character/word.istitle()
+Returns True if the words in string starts with upper case character/word.istitle()
 Returns True if all characters in the string are upper case/word.isupper()
 Joins the elements of an iterable to the string with symbol/word = 'sym'.join(l)
 Makes the length of the string at least 'width', if necessary, filling the last characters with the fillchar symbol/word.ljust(width, fillchar="")

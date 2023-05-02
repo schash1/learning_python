@@ -7,8 +7,7 @@ with open("String.txt", encoding='utf-8') as f:
         d[key] = val
 
 i = len(d)
-print('List is a collection which is ordered and changeable. Allows duplicate members.')
-print('x - element, l - list, i - index, func - function')
+print('x - element, l - list, i - index, func - function, w - word, sym - symbol')
 
 while i > 0:
     explanation, method = choice(list(d.items()))
