@@ -1,0 +1,21 @@
+To determine how many items a set has, use the function/len(s)
+How to create a set(function)/set = set((x))
+Loop through the set/for x in set:
+How to determine if a specified item is present in a set/if x in set:
+How to add one item to a set/set.add(x)
+How to add items from another set(or any iterable) into the current set/set1.update(set2)
+How to remove an item in a set(2 methods)/set.remove(x) and set.discard(x)
+How to remove a random item in a set/set.pop()
+Removes all the elements from the set/set.clear()
+How to delete the set completely/del set
+Returns a new set containing all items from both sets/set3 = set1.union(set2)
+What method will keep only the items that are present in both sets/set1.intersection_update(set2)
+What method will return a NEW set, that only contains the items that are present in both sets/set3 = set1.intersection(set2)
+What method will keep only the elements that are NOT present in both sets/set1.symmetric_difference_update(set2)
+What method will return a NEW set, that contains only the elements that are NOT present in both sets/set3 = set1.symmetric_difference(set2)
+Returns a copy of the set/set.copy()
+Returns a set containing the difference between two or more sets/set3 = set1.difference(set2)
+Removes the items in this set that are also included in another, specified set/set1.difference_update(set2)
+Returns whether two sets have a intersection or not/set1.isdisjoint(set2)
+Returns whether another set contains this set or not/set1.issubset(set2)
+Returns whether this set contains another set or not/set1.issuperset(set2)

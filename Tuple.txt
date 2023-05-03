@@ -1,0 +1,14 @@
+To determine how many items a tuple has, use the function/len(t)
+How to create a tuple with only one item/tuple = (x,)
+How to access tuple items by referring to the index number/tuple[i]
+How to specify a range of indexes by specifying where to start and where to end the range/tuple[i:i:step]
+How to determine if a specified item is present in a tuple/if x in tuple:
+How to add one item, (or many) in a tuple/tuple += tuple2
+How to delete the tuple completely/del tuple
+How to extract the values back into variables or list/(x, *x) = tuple
+Loop Through a Tuple/for x in tuple:
+Join Two Tuples/t3 = t1 + t2
+How to multiply the content of a tuple/tuple = t * count
+Returns the number of times a specified value occurs in a tuple/tuple.count(x)
+Searches the tuple for a specified value and returns the position of where it was found/tuple.index(x)
+How to create a tuple(function)/tuple = tuple((x))
