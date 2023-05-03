@@ -1,13 +1,13 @@
 from random import choice
 
 d = {}
-with open("String.txt", encoding='utf-8') as f:
+with open("Types_and_operators.txt", encoding='utf-8') as f:
     for line in f:
         (key, val) = line.split('/')
         d[key] = val
 
 i = len(d)
-print('x - element, l - list, i - index, func - function, w - word, sym - symbol')
+print('x - element, l - list, i - index, func - function, w - word, sym - symbol, t - tuple(tab), s - set')
 
 while i > 0:
     explanation, method = choice(list(d.items()))

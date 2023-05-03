@@ -6,8 +6,8 @@ Set Types/set, frozenset
 Boolean Type/bool
 Binary Types/bytes, bytearray, memoryview
 None Type/NoneType
-You can get the data type of any object by using the function/type()
-How many categories of types/8 - Text, Numeric, Sequence, Mapping, Set, Boolean, Binary, None
+You can get the data type of any object by using the function/type(x)
+How many categories of types and which/8 - Text, Numeric, Sequence, Mapping, Set, Boolean, Binary, None
 How many types/15
 What function can be used to determine if an object is of a certain data type/isinstance(x, type)
 Python divides the operators in the following groups(7)/Arithmetic Assignment Comparison Logical Identity Membership Bitwise

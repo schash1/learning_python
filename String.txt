@@ -6,13 +6,13 @@ How to check if a certain phrase or character is present in a string or not/if x
 How can you return a range of characters/w[i:i:step]
 What method returns the string in upper case/word.upper()
 What method replaces a string with another string/word.replace(x, x, count)
-What method returns a list where the text between the specified separator becomes the list items/w.split(x)
+What method returns a list where the text between the specified separator becomes the list items/w.split(x, maxsplit=count)
 How to concatenate, or combine, two strings/x3 = x1 + x2
 How to repeat a string/word * count
 List Escape Characters (10)/ \' \" \\ \n \r \t \b \f \ooo \xhh
 Converts the first character to upper case and other in lower case/word.capitalize()
 Converts string into lower case(2 methods)/word.casefold() and word.lower()
-Returns a centered string in symbols or spaces/word.center(width, [fill])
+Returns a centered string in symbols or spaces/word.center(width, [x])
 Returns the number of times a specified value occurs in a string from the start and till the end/word.count(x, [i], [i])
 Returns an encoded version of the string/word.encode()
 Returns true if the string ends with the specified value/word.endswith(x)
@@ -29,9 +29,9 @@ Returns True if all characters in the string are printable(without Escape Charac
 Returns True if all characters in the string are whitespaces or Escape Characters/word.isspace()
 Returns True if the words in string starts with upper case character/word.istitle()
 Returns True if all characters in the string are upper case/word.isupper()
-Joins the elements of an iterable to the string with symbol/word = 'sym'.join(l)
-Makes the length of the string at least 'width', if necessary, filling the last characters with the fillchar symbol/word.ljust(width, fillchar="")
-Makes the length of the string at least 'width', if necessary, filling the first characters with the fillchar symbol/word.rjust(width, fillchar="")
+Joins the elements of an iterable to the string with symbol/word = x.join(l)
+Makes the length of the string at least 'width', if necessary, filling the last characters with the fillchar symbol/word.ljust(width, fillchar=x)
+Makes the length of the string at least 'width', if necessary, filling the first characters with the fillchar symbol/word.rjust(width, fillchar=x)
 What method in Python, at the beginning of a string removes whitespaces and Escape Characters(or characters)/word.lstrip([x])
 What method in Python, at the ending of a string removes whitespaces and Escape Characters(or characters)/word.rstrip([x])
 What method in Python, at the beginning and ending of a string removes whitespaces and Escape Characters(or characters)/word.strip([x])
